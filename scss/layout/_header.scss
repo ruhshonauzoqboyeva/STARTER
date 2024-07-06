@@ -1,0 +1,12 @@
+header {
+    background-color: beige;
+    nav {
+        @extend %flex;
+        justify-content: space-between;
+        height: 60px;
+        ul {
+            @extend %flex;
+            gap: 40px;
+        }
+    }
+}
